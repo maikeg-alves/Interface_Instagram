@@ -258,7 +258,19 @@ footer ul li {
 }
 
 @media (max-width: 730px){
-   .mackup_Backgroud{
-    display: none;
+    .mackup_Backgroud {
+        display: none;
+    }
+
+   #login-interface, .over{
+    margin-top: 70px!important;
    }
+
+}
+
+
+@media (max-width: 861px){
+    #login-interface, .over, .mackup_Backgroud{
+        margin-top: 70px!important;
+       }
 }
