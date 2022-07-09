@@ -6,8 +6,9 @@ Utilizando dos conhecimentos adquiridos no curso de "Posicionando elementos com 
 
 Futuramente pretendo colocar um modo escuro nele e adicionalo ao meu [portfólio](https://my-portfolio-maike.herokuapp.com/)
 
-## Tecnologias 
+Clique em [Entrar]() por sua conta e risco 🤭🤭🤭
 
+## Tecnologias 
 
 <div style="display: inline_block">  
   
