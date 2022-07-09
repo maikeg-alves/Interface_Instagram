@@ -1,0 +1,249 @@
+/* syles global DOM */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', sans-serif;
+}
+body{
+    background: #fafafa;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+form{
+    width: 80%;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+label, input, button {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+button{
+    margin: 20px 0 20px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+section {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+main {
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12%;
+    width: 100%;
+}
+
+/* styles componetes global  */
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 992px;
+    width: 100%;
+    min-width: 350px;
+    width: 100%;
+    line-height: 31px;
+}
+
+.direction-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.direction-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.backgroudModal{
+    background-color: #ffffff;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    max-width: 350px;
+}
+
+.over{
+    max-width: 861px !important;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+/* Mockup styles */  
+
+.mackup_Backgroud {
+    background-image: url('./img/cbc7174b4f05.png');
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0;
+}
+
+.Mockup {
+    display: block;
+    width: 67%;
+    position: relative;
+    left: 103px;
+    top: 25px;
+}
+
+/* login styles  */
+
+.flex-container-login{
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    width: 100%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 262px;
+    height: 100%;
+    padding: 10px 0;
+    margin: 0 0 10px;
+}
+
+.login img {
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.login button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* ou */ 
+
+.Other p{
+    margin: 0 0 10px;
+}
+
+
+/* login alternativo styles */ 
+
+.alternativelogin{
+    text-align: center;
+}
+
+.alternativelogin a{
+    color: #385185;
+    text-decoration: none;
+}
+
+.alternativelogin p a {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#iconfacebook {
+    display: flex;
+    margin: 8px 40px 8px 40px;
+    align-items: center;
+}
+#iconfacebook span{
+    content: url(/img/124010.png);
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+/* cadastre-se styles  */
+
+.cadastrese{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    margin: 0 0 10px;
+}
+
+.cadastrese a {
+    text-decoration: none;
+    color: #0095f6;
+}
+
+/* download do app styles */
+
+.downloadApp{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    align-items: center;
+    margin: 10px;
+}
+
+.downloadApp img {
+    margin-right: 8px;
+    height: 40px;
+}
+
+.obterapp {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+}
+
+/* roda pé  */
+
+footer ul {
+    justify-content: center;
+    padding: 5px 0;
+    margin: -2px 0 -3px;
+
+}
+
+footer ul li {
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 730px){
+   .mackup_Backgroud{
+    display: none;
+   }
+}
