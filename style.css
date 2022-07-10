@@ -262,15 +262,10 @@ footer ul li {
         display: none;
     }
 
-   #login-interface, .over{
+   #login-interface, .over, .mackup_Backgroud{
     margin-top: 70px!important;
    }
 
 }
 
 
-@media (max-width: 1024px){
-    #login-interface, .over, .mackup_Backgroud{
-        margin-top: 70px!important;
-       }
-}
